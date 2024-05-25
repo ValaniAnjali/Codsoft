@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <table class="calculator table">
+            <tr>
+                <td colspan="7" rowspan="3">
+                    <div class="output form-group">
+                        <input type="text" id="answer" class="ans form-control" readonly name="">
+                    </div>
+                </td>
+            </tr>
+            <tbody class="actions">
+                <tr>                
+                    <td>
+                        <button class="btn btn-op" data-value='.'>.</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='del'>DEL</button>
+                    </td>
+                    <td colspan="2">
+                        <button class="btn btn-clear clear" data-value='clear' style="width:160px;" >C</button>              
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <button class="btn" data-value='1'>1</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='2'>2</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='3'>3</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='/'>÷</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-value='4'>4</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='5'>5</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='6'>6</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='*'>×</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-value='7'>7</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='8'>8</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='9'>9</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='-'>-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" data-value='0'>0</button>
+                    </td>
+                    <td>
+                        <button class="btn" data-value='00'>00</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='='>=</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-op" data-value='+'>+</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
